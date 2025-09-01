@@ -4,15 +4,20 @@ body {
 }
 
 .navbar {
-  background: #333;
+  background: #2ab899;
   color: rgb(193, 86, 86);
   padding: 10px;
+  justify-content: Right;
+  display: flex;
+  margin-top: 20px;
+
 }
 
 .navbar ul {
   list-style: none;
   margin: 0;
   padding: 0;
+  margin-top: 30px;
 }
 
 .navbar li {
@@ -31,7 +36,12 @@ body {
   padding: 10px;
   margin-top: 20px;
   position: fixed;
+  bottom: 0;
   width: 100;
   left: 0;
   right: 0;
+}
+
+h1{
+    padding-right: 20px;
 }
