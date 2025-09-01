@@ -1,0 +1,37 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+.navbar {
+  background: #333;
+  color: rgb(193, 86, 86);
+  padding: 10px;
+}
+
+.navbar ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar li {
+  display: inline;
+  margin-right: 15px;
+}
+
+.navbar a {
+  color: white;
+  text-decoration: none;
+}
+
+.footer {
+  background: #eee;
+  text-align: center;
+  padding: 10px;
+  margin-top: 20px;
+  position: fixed;
+  width: 100;
+  left: 0;
+  right: 0;
+}
